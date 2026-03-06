@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: #1b5e20;
-    font-family: 'Arial Black', sans-serif;
+    background: #464646; /* Sidewalk/Concrete Gray */
+    font-family: 'Courier New', Courier, monospace; /* Pixel style font */
     touch-action: none;
 }
 
