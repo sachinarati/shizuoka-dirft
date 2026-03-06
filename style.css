@@ -23,7 +23,26 @@ body {
 }
 
 #lobby-ui { top: 30%; }
-#game-ui { top: 20px; left: 20px; text-align: left; color: #ffeb3b; }
+
+#game-ui {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: left;
+    color: #ffeb3b; /* Yellow */
+    font-size: 1.2rem;
+    text-shadow: 2px 2px #000;
+    z-index: 5;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#distance-meter {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-top: 5px;
+}
 
 #winner-ui {
     display: none;
